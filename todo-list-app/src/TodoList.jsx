@@ -11,7 +11,6 @@ export default function TodoList({ todos, toggleTodo, deleteTodo }) {
                     toggleTodo={toggleTodo}
                     deleteTodo={deleteTodo}
                 />
-
             })}
         </ul>
     )
