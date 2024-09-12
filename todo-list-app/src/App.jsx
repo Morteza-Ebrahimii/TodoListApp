@@ -5,7 +5,6 @@ import TodoList from './TodoList'
 
 export default function App() {
 
-  const [newItem, setNewItem] = useState("")
   const [todos, setTodos] = useState([])
 
   const AddTodo = (title) => {
